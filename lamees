@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>ترشيد استهلاك المياه في الزراعة</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  scroll-behavior: smooth;
+}
+
+header {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+nav {
+  background: #023e8a;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #90e0ef;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #0077b6;
+}
+
+img {
+  width: 70%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  width: 80%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #0077b6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>🌿 ترشيد استهلاك المياه في الزراعة</h1>
+  <p>Water Conservation in Agriculture</p>
+</header>
+
+<nav>
+  <a href="#home">الرئيسية</a>
+  <a href="#water">أهمية الماء</a>
+  <a href="#methods">طرق الترشيد</a>
+  <a href="#tech">التقنيات الحديثة</a>
+</nav>
+
+<!-- الصفحة الرئيسية -->
+<section id="home">
+  <h2>أهلاً بك 👋</h2>
+  <div class="card">
+    <p>
+      هذا الموقع يهدف إلى نشر الوعي حول أهمية الحفاظ على المياه في الزراعة  
+      <br>
+      This website aims to spread awareness about saving water in agriculture.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+
+    <h3>🎥 فيديو توعوي</h3>
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/e08XqpEKmes"
+    frameborder="0" allowfullscreen>
+    </iframe>
+
+  </div>
+</section>
+
+<!-- أهمية الماء -->
+<section id="water">
+  <h2>💧 أهمية الماء في الزراعة</h2>
+  <div class="card">
+    <p>
+      الماء عنصر أساسي لنمو النباتات وإنتاج الغذاء  
+      Water is essential for plant growth and food production
+    </p>
+
+    <ul>
+      <li>🌱 يساعد في البناء الضوئي</li>
+      <li>🌍 يحافظ على خصوبة التربة</li>
+      <li>📈 يزيد الإنتاج الزراعي</li>
+    </ul>
+
+    <img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf">
+  </div>
+</section>
+
+<!-- طرق الترشيد -->
+<section id="methods">
+  <h2>🚿 طرق ترشيد استهلاك المياه</h2>
+  <div class="card">
+    <p>
+      هناك العديد من الطرق لتوفير المياه  
+      There are many ways to save water
+    </p>
+
+    <ul>
+      <li>⏰ الري في الصباح الباكر</li>
+      <li>💧 استخدام الري بالتنقيط</li>
+      <li>🌾 تغطية التربة لتقليل التبخر</li>
+      <li>🌵 اختيار محاصيل تتحمل الجفاف</li>
+    </ul>
+
+    <img src="https://images.unsplash.com/photo-1560493676-04071c5f467b">
+  </div>
+</section>
+
+<!-- التقنيات الحديثة -->
+<section id="tech">
+  <h2>🤖 تقنيات الري الحديثة</h2>
+  <div class="card">
+    <p>
+      التكنولوجيا تساعد في تقليل استهلاك المياه  
+      Technology helps reduce water usage efficiently
+    </p>
+
+    <ul>
+      <li>📍 الري بالتنقيط</li>
+      <li>🌧️ الري بالرش الذكي</li>
+      <li>📡 حساسات التربة</li>
+      <li>🤖 التحكم الآلي</li>
+    </ul>
+
+    <h3>🌱 نصائح للمزارعين</h3>
+
+    <ul>
+      <li>✔ فحص التربة باستمرار</li>
+      <li>✔ تقليل الري الزائد</li>
+      <li>✔ صيانة الشبكات</li>
+      <li>✔ استخدام مياه معاد تدويرها</li>
+    </ul>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 مشروع ترشيد المياه | Water Saving Project</p>
+</footer>
+
+</body>
+</html>
